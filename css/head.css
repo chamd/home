@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+.neon {
+    height: 109%;
+    border: 40px solid rgb(173, 0, 0);
+}
+.green1 {
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    margin-top: -50px;
+    margin-left: -100px;
+    width: 100px;
+    height: 200px;
+    background-color: rgb(0, 156, 0);
+    border: 5px solid rgb(0, 255, 0);
+}
+.green2 {
+    position: absolute;
+    top: 50%;
+    right: 41%;
+    margin-top: -50px;
+    margin-right: -100px;
+    width: 100px;
+    height: 200px;
+    background-color: rgb(0, 156, 0);
+    border: 5px solid rgb(0, 255, 0);
+}
+
+
+.green {
+    text-align: center;
+}
+.green p {
+    display: none;
+}
+.green:hover p {
+    display: block;
+}
+.green p a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display:inline-block;
+    width:80px;
+    padding:5px 10px;
+    background:rgb(0, 156, 0);
+    text-align:center;
+}
+.green p a:hover {
+    background:rgb(0, 255, 0);
+}
+
+.green p a.no:hover {
+    background:rgb(173, 0, 0);
+}
