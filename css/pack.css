@@ -14,7 +14,7 @@
     vertical-align: middle;
     font-size: 32px;
     color: rgb(0, 183, 255);
-    text-shadow: 1px 1px 0px rgb(0, 183, 255), -1px -1px 0px rgb(0, 183, 255);
+    text-shadow: 4px 4px 3px rgb(0, 2, 145);
 }
 .green1:hover .pack,
 .green2:hover .pack {
