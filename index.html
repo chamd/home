@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>참드 홈 (beta)</title>
+    <title>참드 홈</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/head.css">
     <link rel="stylesheet" type="text/css" href="css/pack.css">
@@ -12,14 +12,22 @@
 </head>
 
 <body>
+    <div id="Menubar" class="menubar">
+        <a class="menutitle">CHAMD HOME MENU</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+        <br><br><br>
+        <a href="https://github.com">깃허브</a><img src="img/github.png" class="img">
+        <br>
+        <a href="https://github.com/chamd/pack/releases/tag/1">팩 다운법</a><img src="img/pack.png" class="img">
+    </div>
+
     <div class="title">
-        <div class="menu" onclick="showMenu()">
+        <div class="openbtn" onclick="openMenu()">
             <div class="line"></div>
             <div class="line"></div>
             <div class="line"></div>
         </div>
         <strong>참드 홈</strong>
-        <!--<a href="https://github.com"><img src="img/github.png" class="github"></a>-->
     </div>
 
     <br>
