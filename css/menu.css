@@ -2,21 +2,20 @@
 
 .openbtn {
     cursor: pointer;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     float: left;
 }
 .line {
-    background: rgb(255, 255, 255);
-    margin: 8px 5px;
-    width: 40px;
-    height: 5px; 
-    border-radius: 2px;
+    background: white;
+    margin: 5px 5px;
+    width: 30px;
+    height: 4px;
 }
 
 .menubar {
     height: 100%;
-    width: 0;
+    width: 400px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -24,7 +23,8 @@
     background-color: #111;
     overflow-x: hidden;
     padding-top: 60px;
-    transition: 0.2s;
+    transition: 0.5s;
+    margin-left: -400px;
 }
 
 .menubar a {
@@ -51,7 +51,7 @@
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px;
+    font-size: 50px;
     margin-left: 50px;
 }
 

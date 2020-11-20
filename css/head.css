@@ -46,14 +46,14 @@
     padding:15px 10px;
     background:rgb(0, 156, 0);
     text-align:center;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .green p a:hover {
     background:rgb(0, 255, 0);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .green p a.no:hover {
     background:rgb(173, 0, 0);
-    transition: 0.5s;
+    transition: 0.2s;
 }
